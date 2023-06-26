@@ -1,0 +1,94 @@
+* {
+    text-decoration: none;
+}
+.section {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(128, 128, 128, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.blk01 {
+    width: 95%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blk02 {
+    width: 4.5%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+
+.icons {
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+.ul01 {
+    width: 90%;
+    height: 95%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 17px;
+}
+
+.li01 {
+    width: 13%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 3px 0 black;
+}
+
+.but02 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 35px;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    box-shadow: 0 0 3px 0 black;
+    cursor: pointer;
+}
+
+.but01 {
+    width: 45px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: white;
+    /* color: #0008c1; */
+    color: grey;
+    border: none;
+    box-shadow: 0 0 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.but01:focus {
+    box-shadow: 0 0 4px black;
+    transition: 0.2s;
+}
+
+.but01:focus .icons {
+    color: #0008c1;
+    transition: 0.2s;
+}
